@@ -1,0 +1,154 @@
+/* navbar */
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show
+.navbar-dark .navbar-nav .show>.nav-link{
+    color: rgb(238, 138, 8) !important;
+}	
+
+
+ .navbar .nav-brand{
+	color : #fff;
+	font-weight:bolder;
+}
+.navbar .navbar-item a{
+	color: #fff !important
+}
+/* End navbar */
+
+/* home */
+.landing{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+.home-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-inner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/1.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.caption{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color:#fff;
+}
+
+.caption h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 0.1rem 0.1rem 0.8rem #000;
+    padding-bottom: 1rem;
+    ;
+}
+
+.caption h3{
+    font-size: 2rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem #000;
+    padding-bottom: 1.2rem;
+}
+
+.caption .btn-start{
+    font-size: 1.2rem;
+    border-width: 1px;
+}
+/* End home */
+/* محصولات */
+.area{
+    margin: 0 auto;
+    padding:4rem 2rem 1rem ;
+}
+.area h2{
+    font-size: 2.4rem;
+    padding-bottom: 0.5rem;
+}
+
+.area p{
+    padding-bottom:1rem;
+
+}
+
+/* پایان محصولات */
+/* about us */
+.jumbotron{
+    
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+h2.title{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.underline{
+    width: 25rem;
+    height: 0.2rem;
+    background-color: rgb(238, 138, 8);
+    margin: 1rem auto 2rem;
+}
+.aboutus h3{
+    font-size: 1.4rem;
+    padding-bottom: 0.4rem;
+    font-weight: 700;
+
+}
+.aboutus p{
+    font-size: 1.1rem;
+}
+/* end about us */
+/* teachers */
+
+#teachers img{
+    width: 100%;
+    border-radius: 50%;
+}
+blockquote{
+    font-size: 1rem;
+    text-align: justify;
+    
+}
+
+/* end teachers */
+/* footer */
+footer{
+    background-color: rgb(11, 36, 65);
+    color: rgba(20, 216, 85, 0.747);
+    
+
+}
+
+footer img{
+    padding-bottom: 1rem;
+}
+.footer-hr{
+    width: 100%;
+    border-top: 0.2rem solid rgba(131, 101, 45, 0.89);
+}
+.footer-title{
+    color: chocolate;
+    font-size: 2.5rem;
+}
+.footer-title:hover{
+   color: crimson;
+}
+/* Endfooter */
